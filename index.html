@@ -85,54 +85,52 @@ display: block;
 max-width: 85%;
 margin: 1px auto;
 }
+.ebook-images {
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 10px;
+margin: 20px 0;
+}
 .ebook-images img {
-width: 85%;
-  margin: 10px auto;
-display: block;
-
+max-width: 85%;
+height: auto;
+}
 .art-line {
-  width: 80%;
-  margin: 20px auto;
-  background: linear-gradient(90deg, black, white, black);
-  animation: blink 1s infinite;
-  }
-
- @keyframes blink {
- 0%, 100% {
- opacity: 1;
+width: 80%;
+margin: 20px auto;
+background: linear-gradient(90deg, black, white, black);
+animation: blink 1s infinite;
 }
-50% {
-opacity: 0.5;
+@keyframes blink {
+0%, 100% { opacity: 1; }
+50% { opacity: 0.5; }
 }
- }
 h2 {
 font-size: 1.2em;
 font-weight: bold;
 color: #000;
-margin: 30px;
-padding: 30px 30px;
+margin: 20px 10%;
+text-align: center;
 }
 h3 {
 font-size: 1em;
 font-weight: bold;
-color: #000;
-margin: 30px;
-padding: 30px 30px;
+color: #00008B; /* Biru tua */
+margin: 20px 10%;
+text-align: center;
 }
 h4 {
 font-size: 1.2em;
 font-weight: bold;
-color: #000;
-margin: 30px;
-padding 30px 30px;
+color: #800000; /* Maroon */
+margin: 20px 10%;
+text-align: center;
 }
-   }
 p {
 text-align: left;
 color: #000;
 }
-/* Tombol: tidak terlalu lebar, posisinya di tengah, dengan animasi blink.
-Hanya perubahan: tombol diatur sebagai block dengan lebar sesuai isi teks agar selalu berada di tengah. */
 .button {
 display: block;
 width: fit-content;
@@ -151,7 +149,6 @@ animation: blink 2s infinite;
 66% { background-color: #1E90FF; } /* Biru langit cerah */
 100% { background-color: #EE82EE; }
 }
-/* Style tambahan untuk h4 footer agar tidak rapat dengan pinggir layar */
 .footer-h4 {
 margin-left: 20px;
 margin-right: 20px;
@@ -173,122 +170,116 @@ Bonus Ebook
 <div class="welcome-animation">
 <span><b>Membaca adalah Kegiatan yang dapat mengubah hidup Anda.</b></span>
 </div>
-  <img class="logo-small" src="https://affiliate035.wordpress.com/wp-content/uploads/2025/01/20250113_192723.png?w=768" alt="Logo Smart Affiliate Future">
+<img class="logo-small" src="https://affiliate035.wordpress.com/wp-content/uploads/2025/01/20250113_192723.png?w=768" alt="Logo Smart Affiliate Future">
 <br>
-  <h2>Banyak Membaca dan Belajar adalah Kunci Kesuksesan dalam hal apapun.</h2>
-  <h3>Bagi Anggota yang telah mendapatkan Bonus Ebook silahkan ambil akses untuk 3 Book di bawah sesuai minat Anda, caranya Klik Tombol "Ambil Ebook Disini" lalu sebutkan 3 judul Ebook pilahan Anda.</h3>
+<h2>Banyak Membaca dan Belajar adalah Kunci Kesuksesan dalam hal apapun.</h2>
+<h3>Bagi Anggota yang telah mendapatkan Bonus Ebook silahkan ambil akses untuk 3 Book di bawah sesuai minat Anda, caranya Klik Tombol "Ambil Ebook Disini" lalu sebutkan 3 judul Ebook pilahan Anda.</h3>
 <div class="ebook-images">
 <img src="https://affiliate035.wordpress.com/wp-content/uploads/2024/12/20241213_192131.png?w=730" alt="Ebook 1">
 <img src="https://affiliate035.wordpress.com/wp-content/uploads/2024/12/20241213_192538.png?w=730" alt="Ebook 2">
 </div>
-  <br>
+<br>
 <a href="https://wa.me/6289522704503?text=Hallo%20Admin%20saya%20mau%20ambil%20Bonus%20Tambahan%20saya,%20silahkan%20di%20cek.%20Saya%20pilih%203%20Ebooknya%20dengan%20judul:%0A1.%20(ketik%20disini%20judulnya)%0A2.%20(ketik%20disini%20judulnya)%0A3.%20(ketik%20disini%20judulnya)%0A_________%20"
 class="button" target="_blank">Ambil Ebook Disini</a>
 <br>
-    <div class="ebook-images">
-        <img src="https://affiliate035.wordpress.com/wp-content/uploads/2024/12/20241213_192716.png?w=730" alt="Ebook 3">
-        <img src="https://affiliate035.wordpress.com/wp-content/uploads/2024/12/20241213_192833.png?w=730" alt="Ebook 4">
-    </div>
-  <br>
-    <a href="https://wa.me/6289522704503?text=Hallo%20Admin%20saya%20mau%20ambil%20Bonus%20Tambahan%20saya,%20silahkan%20di%20cek.%20Saya%20pilih%203%20Ebooknya%20dengan%20judul:%0A1.%20(ketik%20disini%20judulnya)%0A2.%20(ketik%20disini%20judulnya)%0A3.%20(ketik%20disini%20judulnya)%0A_________%20"
-       class="button" target="_blank">Ambil Ebook Disini</a>
+<div class="ebook-images">
+<img src="https://affiliate035.wordpress.com/wp-content/uploads/2024/12/20241213_192716.png?w=730" alt="Ebook 3">
+<img src="https://affiliate035.wordpress.com/wp-content/uploads/2024/12/20241213_192833.png?w=730" alt="Ebook 4">
+</div>
 <br>
-  <div class="ebook-images">
-        <img src="https://affiliate035.wordpress.com/wp-content/uploads/2024/12/20241213_192950-1.png?w=730" alt="Ebook 5">
-        <img src="https://affiliate035.wordpress.com/wp-content/uploads/2024/12/20241213_193055.png?w=730" alt="Ebook 6">
-    </div>
-      <br>
-    <a href="https://wa.me/6289522704503?text=Hallo%20Admin%20saya%20mau%20ambil%20Bonus%20Tambahan%20saya,%20silahkan%20di%20cek.%20Saya%20pilih%203%20Ebooknya%20dengan%20judul:%0A1.%20(ketik%20disini%20judulnya)%0A2.%20(ketik%20disini%20judulnya)%0A3.%20(ketik%20disini%20judulnya)%0A_________%20"
-       class="button" target="_blank">Ambil Ebook Disini</a>
+<a href="https://wa.me/6289522704503?text=Hallo%20Admin%20saya%20mau%20ambil%20Bonus%20Tambahan%20saya,%20silahkan%20di%20cek.%20Saya%20pilih%203%20Ebooknya%20dengan%20judul:%0A1.%20(ketik%20disini%20judulnya)%0A2.%20(ketik%20disini%20judulnya)%0A3.%20(ketik%20disini%20judulnya)%0A_________%20"
+class="button" target="_blank">Ambil Ebook Disini</a>
 <br>
-    <div class="ebook-images">
-        <img src="https://affiliate035.wordpress.com/wp-content/uploads/2024/12/20241213_193208.png?w=730" alt="Ebook 7">
-        <img src="https://affiliate035.wordpress.com/wp-content/uploads/2024/12/20241213_193322.png?w=730" alt="Ebook 8">
-    </div>
-  <br>
-    <a href="https://wa.me/6289522704503?text=Hallo%20Admin%20saya%20mau%20ambil%20Bonus%20Tambahan%20saya,%20silahkan%20di%20cek.%20Saya%20pilih%203%20Ebooknya%20dengan%20judul:%0A1.%20(ketik%20disini%20judulnya)%0A2.%20(ketik%20disini%20judulnya)%0A3.%20(ketik%20disini%20judulnya)%0A_________%20"
-       class="button" target="_blank">Ambil Ebook Disini</a>
+<div class="ebook-images">
+<img src="https://affiliate035.wordpress.com/wp-content/uploads/2024/12/20241213_192950-1.png?w=730" alt="Ebook 5">
+<img src="https://affiliate035.wordpress.com/wp-content/uploads/2024/12/20241213_193055.png?w=730" alt="Ebook 6">
+</div>
 <br>
-    <div class="ebook-images">
-        <img src="https://affiliate035.wordpress.com/wp-content/uploads/2024/12/20241213_193427.png?w=730" alt="Ebook 9">
-        <img src="https://affiliate035.wordpress.com/wp-content/uploads/2024/12/20241213_193657.png?w=730" alt="Ebook 10">
-    </div>
-  <br>
-    <a href="https://wa.me/6289522704503?text=Hallo%20Admin%20saya%20mau%20ambil%20Bonus%20Tambahan%20saya,%20silahkan%20di%20cek.%20Saya%20pilih%203%20Ebooknya%20dengan%20judul:%0A1.%20(ketik%20disini%20judulnya)%0A2.%20(ketik%20disini%20judulnya)%0A3.%20(ketik%20disini%20judulnya)%0A_________%20"
-       class="button" target="_blank">Ambil Ebook Disini</a>
+<a href="https://wa.me/6289522704503?text=Hallo%20Admin%20saya%20mau%20ambil%20Bonus%20Tambahan%20saya,%20silahkan%20di%20cek.%20Saya%20pilih%203%20Ebooknya%20dengan%20judul:%0A1.%20(ketik%20disini%20judulnya)%0A2.%20(ketik%20disini%20judulnya)%0A3.%20(ketik%20disini%20judulnya)%0A_________%20"
+class="button" target="_blank">Ambil Ebook Disini</a>
 <br>
-    <div class="ebook-images">
-        <img src="https://affiliate035.wordpress.com/wp-content/uploads/2024/12/20241213_193856.png?w=730" alt="Ebook 11">
-        <img src="https://affiliate035.wordpress.com/wp-content/uploads/2024/12/20241213_194020.png?w=730" alt="Ebook 12">
-    </div>
-  <br>
-    <a href="https://wa.me/6289522704503?text=Hallo%20Admin%20saya%20mau%20ambil%20Bonus%20Tambahan%20saya,%20silahkan%20di%20cek.%20Saya%20pilih%203%20Ebooknya%20dengan%20judul:%0A1.%20(ketik%20disini%20judulnya)%0A2.%20(ketik%20disini%20judulnya)%0A3.%20(ketik%20disini%20judulnya)%0A_________%20"
-       class="button" target="_blank">Ambil Ebook Disini</a>
+<div class="ebook-images">
+<img src="https://affiliate035.wordpress.com/wp-content/uploads/2024/12/20241213_193208.png?w=730" alt="Ebook 7">
+<img src="https://affiliate035.wordpress.com/wp-content/uploads/2024/12/20241213_193322.png?w=730" alt="Ebook 8">
+</div>
 <br>
-    <div class="ebook-images">
-        <img src="https://affiliate035.wordpress.com/wp-content/uploads/2024/12/20241213_194136.png?w=730" alt="Ebook 13">
-        <img src="https://affiliate035.wordpress.com/wp-content/uploads/2024/12/20241213_194442.png?w=730" alt="Ebook 14">
-    </div>
-  <br>
-    <a href="https://wa.me/6289522704503?text=Hallo%20Admin%20saya%20mau%20ambil%20Bonus%20Tambahan%20saya,%20silahkan%20di%20cek.%20Saya%20pilih%203%20Ebooknya%20dengan%20judul:%0A1.%20(ketik%20disini%20judulnya)%0A2.%20(ketik%20disini%20judulnya)%0A3.%20(ketik%20disini%20judulnya)%0A_________%20"
-       class="button" target="_blank">Ambil Ebook Disini</a>
+<a href="https://wa.me/6289522704503?text=Hallo%20Admin%20saya%20mau%20ambil%20Bonus%20Tambahan%20saya,%20silahkan%20di%20cek.%20Saya%20pilih%203%20Ebooknya%20dengan%20judul:%0A1.%20(ketik%20disini%20judulnya)%0A2.%20(ketik%20disini%20judulnya)%0A3.%20(ketik%20disini%20judulnya)%0A_________%20"
+class="button" target="_blank">Ambil Ebook Disini</a>
 <br>
-    <div class="ebook-images">
-        <img src="https://affiliate035.wordpress.com/wp-content/uploads/2024/12/20241213_194723-1.png?w=730" alt="Ebook 15">
-        <img src="https://affiliate035.wordpress.com/wp-content/uploads/2024/12/20241213_194833.png?w=730" alt="Ebook 16">
-    </div>
-  <br>
-    <a href="https://wa.me/6289522704503?text=Hallo%20Admin%20saya%20mau%20ambil%20Bonus%20Tambahan%20saya,%20silahkan%20di%20cek.%20Saya%20pilih%203%20Ebooknya%20dengan%20judul:%0A1.%20(ketik%20disini%20judulnya)%0A2.%20(ketik%20disini%20judulnya)%0A3.%20(ketik%20disini%20judulnya)%0A_________%20"
-       class="button" target="_blank">Ambil Ebook Disini</a>
+<div class="ebook-images">
+<img src="https://affiliate035.wordpress.com/wp-content/uploads/2024/12/20241213_193427.png?w=730" alt="Ebook 9">
+<img src="https://affiliate035.wordpress.com/wp-content/uploads/2024/12/20241213_193657.png?w=730" alt="Ebook 10">
+</div>
 <br>
-    <div class="ebook-images">
-        <img src="https://affiliate035.wordpress.com/wp-content/uploads/2024/12/20241213_194949.png?w=730" alt="Ebook 17">
-        <img src="https://affiliate035.wordpress.com/wp-content/uploads/2024/12/20241213_195057.png?w=730" alt="Ebook 18">
-    </div>
-  <br>
-    <a href="https://wa.me/6289522704503?text=Hallo%20Admin%20saya%20mau%20ambil%20Bonus%20Tambahan%20saya,%20silahkan%20di%20cek.%20Saya%20pilih%203%20Ebooknya%20dengan%20judul:%0A1.%20(ketik%20disini%20judulnya)%0A2.%20(ketik%20disini%20judulnya)%0A3.%20(ketik%20disini%20judulnya)%0A_________%20"
-       class="button" target="_blank">Ambil Ebook Disini</a>
+<a href="https://wa.me/6289522704503?text=Hallo%20Admin%20saya%20mau%20ambil%20Bonus%20Tambahan%20saya,%20silahkan%20di%20cek.%20Saya%20pilih%203%20Ebooknya%20dengan%20judul:%0A1.%20(ketik%20disini%20judulnya)%0A2.%20(ketik%20disini%20judulnya)%0A3.%20(ketik%20disini%20judulnya)%0A_________%20"
+class="button" target="_blank">Ambil Ebook Disini</a>
 <br>
-    <div class="ebook-images">
-        <img src="https://affiliate035.wordpress.com/wp-content/uploads/2024/12/20241213_195227.png?w=730" alt="Ebook 19">
-        <img src="https://affiliate035.wordpress.com/wp-content/uploads/2024/12/20241213_195344.png?w=730" alt="Ebook 20">
-    </div>
-  <br>
-    <a href="https://wa.me/6289522704503?text=Hallo%20Admin%20saya%20mau%20ambil%20Bonus%20Tambahan%20saya,%20silahkan%20di%20cek.%20Saya%20pilih%203%20Ebooknya%20dengan%20judul:%0A1.%20(ketik%20disini%20judulnya)%0A2.%20(ketik%20disini%20judulnya)%0A3.%20(ketik%20disini%20judulnya)%0A_________%20"
-       class="button" target="_blank">Ambil Ebook Disini</a>
+<div class="ebook-images">
+<img src="https://affiliate035.wordpress.com/wp-content/uploads/2024/12/20241213_193856.png?w=730" alt="Ebook 11">
+<img src="https://affiliate035.wordpress.com/wp-content/uploads/2024/12/20241213_194020.png?w=730" alt="Ebook 12">
+</div>
 <br>
-    <div class="ebook-images">
-        <img src="https://affiliate035.wordpress.com/wp-content/uploads/2024/12/20241213_195459.png?w=730" alt="Ebook 21">
-        <img src="https://affiliate035.wordpress.com/wp-content/uploads/2024/12/20241213_195642.png?w=730" alt="Ebook 22">
-    </div>
-  <br>
-    <a href="https://wa.me/6289522704503?text=Hallo%20Admin%20saya%20mau%20ambil%20Bonus%20Tambahan%20saya,%20silahkan%20di%20cek.%20Saya%20pilih%203%20Ebooknya%20dengan%20judul:%0A1.%20(ketik%20disini%20judulnya)%0A2.%20(ketik%20disini%20judulnya)%0A3.%20(ketik%20disini%20judulnya)%0A_________%20"
-       class="button" target="_blank">Ambil Ebook Disini</a>
+<a href="https://wa.me/6289522704503?text=Hallo%20Admin%20saya%20mau%20ambil%20Bonus%20Tambahan%20saya,%20silahkan%20di%20cek.%20Saya%20pilih%203%20Ebooknya%20dengan%20judul:%0A1.%20(ketik%20disini%20judulnya)%0A2.%20(ketik%20disini%20judulnya)%0A3.%20(ketik%20disini%20judulnya)%0A_________%20"
+class="button" target="_blank">Ambil Ebook Disini</a>
 <br>
-    <div class="ebook-images">
-        <img src="https://affiliate035.wordpress.com/wp-content/uploads/2024/12/20241213_195759.png?w=730" alt="Ebook 23">
-        <img src="https://affiliate035.wordpress.com/wp-content/uploads/2024/12/20241213_200056.png?w=730" alt="Ebook 24">
-    </div>
-  <br>
-    <a href="https://wa.me/6289522704503?text=Hallo%20Admin%20saya%20mau%20ambil%20Bonus%20Tambahan%20saya,%20silahkan%20di%20cek.%20Saya%20pilih%203%20Ebooknya%20dengan%20judul:%0A1.%20(ketik%20disini%20judulnya)%0A2.%20(ketik%20disini%20judulnya)%0A3.%20(ketik%20disini%20judulnya)%0A_________%20"
-       class="button" target="_blank">Ambil Ebook Disini</a>
-    <br>
-    <!-- Judul Bawah -->
-    <h3>Selamat membaca semoga Berkah dan Bermanfaat</h3>
-
-
-  
+<div class="ebook-images">
+<img src="https://affiliate035.wordpress.com/wp-content/uploads/2024/12/20241213_194136.png?w=730" alt="Ebook 13">
+<img src="https://affiliate035.wordpress.com/wp-content/uploads/2024/12/20241213_194442.png?w=730" alt="Ebook 14">
+</div>
+<br>
+<a href="https://wa.me/6289522704503?text=Hallo%20Admin%20saya%20mau%20ambil%20Bonus%20Tambahan%20saya,%20silahkan%20di%20cek.%20Saya%20pilih%203%20Ebooknya%20dengan%20judul:%0A1.%20(ketik%20disini%20judulnya)%0A2.%20(ketik%20disini%20judulnya)%0A3.%20(ketik%20disini%20judulnya)%0A_________%20"
+class="button" target="_blank">Ambil Ebook Disini</a>
+<br>
+<div class="ebook-images">
+<img src="https://affiliate035.wordpress.com/wp-content/uploads/2024/12/20241213_194723-1.png?w=730" alt="Ebook 15">
+<img src="https://affiliate035.wordpress.com/wp-content/uploads/2024/12/20241213_194833.png?w=730" alt="Ebook 16">
+</div>
+<br>
+<a href="https://wa.me/6289522704503?text=Hallo%20Admin%20saya%20mau%20ambil%20Bonus%20Tambahan%20saya,%20silahkan%20di%20cek.%20Saya%20pilih%203%20Ebooknya%20dengan%20judul:%0A1.%20(ketik%20disini%20judulnya)%0A2.%20(ketik%20disini%20judulnya)%0A3.%20(ketik%20disini%20judulnya)%0A_________%20"
+class="button" target="_blank">Ambil Ebook Disini</a>
+<br>
+<div class="ebook-images">
+<img src="https://affiliate035.wordpress.com/wp-content/uploads/2024/12/20241213_194949.png?w=730" alt="Ebook 17">
+<img src="https://affiliate035.wordpress.com/wp-content/uploads/2024/12/20241213_195057.png?w=730" alt="Ebook 18">
+</div>
+<br>
+<a href="https://wa.me/6289522704503?text=Hallo%20Admin%20saya%20mau%20ambil%20Bonus%20Tambahan%20saya,%20silahkan%20di%20cek.%20Saya%20pilih%203%20Ebooknya%20dengan%20judul:%0A1.%20(ketik%20disini%20judulnya)%0A2.%20(ketik%20disini%20judulnya)%0A3.%20(ketik%20disini%20judulnya)%0A_________%20"
+class="button" target="_blank">Ambil Ebook Disini</a>
+<br>
+<div class="ebook-images">
+<img src="https://affiliate035.wordpress.com/wp-content/uploads/2024/12/20241213_195227.png?w=730" alt="Ebook 19">
+<img src="https://affiliate035.wordpress.com/wp-content/uploads/2024/12/20241213_195344.png?w=730" alt="Ebook 20">
+</div>
+<br>
+<a href="https://wa.me/6289522704503?text=Hallo%20Admin%20saya%20mau%20ambil%20Bonus%20Tambahan%20saya,%20silahkan%20di%20cek.%20Saya%20pilih%203%20Ebooknya%20dengan%20judul:%0A1.%20(ketik%20disini%20judulnya)%0A2.%20(ketik%20disini%20judulnya)%0A3.%20(ketik%20disini%20judulnya)%0A_________%20"
+class="button" target="_blank">Ambil Ebook Disini</a>
+<br>
+<div class="ebook-images">
+<img src="https://affiliate035.wordpress.com/wp-content/uploads/2024/12/20241213_195459.png?w=730" alt="Ebook 21">
+<img src="https://affiliate035.wordpress.com/wp-content/uploads/2024/12/20241213_195642.png?w=730" alt="Ebook 22">
+</div>
+<br>
+<a href="https://wa.me/6289522704503?text=Hallo%20Admin%20saya%20mau%20ambil%20Bonus%20Tambahan%20saya,%20silahkan%20di%20cek.%20Saya%20pilih%203%20Ebooknya%20dengan%20judul:%0A1.%20(ketik%20disini%20judulnya)%0A2.%20(ketik%20disini%20judulnya)%0A3.%20(ketik%20disini%20judulnya)%0A_________%20"
+class="button" target="_blank">Ambil Ebook Disini</a>
+<br>
+<div class="ebook-images">
+<img src="https://affiliate035.wordpress.com/wp-content/uploads/2024/12/20241213_195759.png?w=730" alt="Ebook 23">
+<img src="https://affiliate035.wordpress.com/wp-content/uploads/2024/12/20241213_200056.png?w=730" alt="Ebook 24">
+</div>
+<br>
+<a href="https://wa.me/6289522704503?text=Hallo%20Admin%20saya%20mau%20ambil%20Bonus%20Tambahan%20saya,%20silahkan%20di%20cek.%20Saya%20pilih%203%20Ebooknya%20dengan%20judul:%0A1.%20(ketik%20disini%20judulnya)%0A2.%20(ketik%20disini%20judulnya)%0A3.%20(ketik%20disini%20judulnya)%0A_________%20"
+class="button" target="_blank">Ambil Ebook Disini</a>
+<br>
+<h3>Selamat membaca semoga Berkah dan Bermanfaat</h3>
 <p><a href="https://SAFF35.github.io/Dashboard" class="button"><b>KEMBALI KE HOME</b></a></p>
 <br>
-  <h4><b>Raih impian Anda menuju kebebasan finansial dan kesejahteraan dengan passive income.</b></h4>
+<h4><b>Raih impian Anda menuju kebebasan finansial dan kesejahteraan dengan passive income.</b></h4>
 <h4><b>Mimpi besar dimulai dengan langkah kecil, dan bonus besar dimulai dengan usaha konsisten.</b></h4>
 <h4><b>Salam sukses untuk semuanya.</b></h4>
 <br>
 <h4>__________________</h4>
-</div>
-
-  <footer class="bg-dark text-white text-center py-4">
-        <p>&copy; 2025 Smart Affiliate Future. Semua hak cipta dilindungi.</p>
-    </footer>
+<footer class="bg-dark text-white text-center py-4">
+<p>&copy; 2025 Smart Affiliate Future. Semua hak cipta dilindungi.</p>
+</footer>
 </body>
 </html>
